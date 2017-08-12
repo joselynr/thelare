@@ -11,7 +11,7 @@ myPicture.on('ready', function(event) {
     radius: 0.10,
     distance: 1
   });
-  myPicture.addHotspot('Seating ', {
+  myPicture.addHotspot('Seating', {
     pitch: 89,
     yaw: 100,
     radius: 0.10,
@@ -29,7 +29,7 @@ myPicture.on('ready', function(event) {
     radius: 0.10,
     distance: 1
   });
-  myPicture.addHotspot('Window view', {
+  myPicture.addHotspot('window view', {
     pitch: 0,
     yaw: 90,
     radius: 0.10,
@@ -38,7 +38,7 @@ myPicture.on('ready', function(event) {
 
 });
 myPicture.on ('click', function(event) {
-  if (event.id == 'The Walk To The Kitchen ') {
+  if (event.id == 'The Walk To The Kitchen') {
     alert("This is where you go into the kitchen to go back to work or to have a drink.")
   }
 
@@ -50,11 +50,11 @@ myPicture.on ('click', function(event) {
     alert('some office room I never stepped into or caught my attention to check it out');
   }
 
-  if (event.id == 'Office') {
+  if (event.id == 'office') {
     alert('Ton of computers and desk arranged');
   }
 
-  if (event.id == 'Window View') {
+  if (event.id == 'window view') {
     alert('Such a nice view! The bridge is right there!!!');
   }
 });
