@@ -5,31 +5,31 @@ var myPicture = vRViewPlayer('#spiderman',{
 });
 window.addEventListener('load', myPicture);
 myPicture.on('ready', function(event) {
-  myPicture.addHotspot('creating-hotspot-1', {
+  myPicture.addHotspot('The Walk To The Kitchen', {
     pitch: -10,
     yaw: -30,
     radius: 0.10,
     distance: 1
   });
-  myPicture.addHotspot('creating-hotspot-1', {
+  myPicture.addHotspot('Seating ', {
     pitch: 89,
     yaw: 100,
     radius: 0.10,
     distance: 1
   });
-  myPicture.addHotspot('creating-hotspot-1', {
+  myPicture.addHotspot('Room Office', {
     pitch: 0,
     yaw: -150,
     radius: 0.10,
     distance: 1
   });
-  myPicture.addHotspot('creating-hotspot-1', {
+  myPicture.addHotspot('office', {
     pitch: 0,
     yaw: 140,
     radius: 0.10,
     distance: 1
   });
-  myPicture.addHotspot('creating-hotspot-1', {
+  myPicture.addHotspot('Window view', {
     pitch: 0,
     yaw: 90,
     radius: 0.10,
@@ -37,27 +37,24 @@ myPicture.on('ready', function(event) {
   });
 
 });
-var setOnClickEvents = function(event) {
-  if (event.id == 'reading-spot') {
-    theLareAlert("This is my reading spot")
+myPicture.on ('click', function(event) {
+  if (event.id == 'The Walk To The Kitchen ') {
+    alert("This is where you go into the kitchen to go back to work or to have a drink.")
   }
 
-  if (event.id == 'self-reflect') {
-    theLareAlert('Sometimes I self reflect to improve myself');
+  if (event.id == 'Seating') {
+    alert('At the end we sit there and reflect how was the day and write it on the board ');
   }
 
-  if (event.id == 'better-off-ted') {
-    theLareAlert('Better Off Ted keeps me connected to the corporate world');
+  if (event.id == 'Room Office') {
+    alert('some office room I never stepped into or caught my attention to check it out.);
   }
 
-  if (event.id == 'drawing-aquarium') {
-    theLareAlert('Come checkout my imagination!!');
+  if (event.id == 'Office') {
+    alert('Ton of computers and desk arranged');
   }
 
-  if (event.id == 'hydrating') {
-    theLareAlert('You have to hydrate as an adult!');
+  if (event.id == 'Window View') {
+    alert('Such a nice view! The bridge is right there!!!');
   }
-
-  if (event.id == 'half-cleaning') {
-    theLareAlert('I like to half clean after I cook');
-  }
+});
