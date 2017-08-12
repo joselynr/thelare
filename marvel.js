@@ -97,5 +97,3 @@ vrHomePage.on('click', function(event) {
 vrHomePage.on('error', function(errorEvent) {
   console.log('there was an error', errorEvent);
 });
-Contact GitHub API Training Shop Blog About
-© 2017 GitHub, Inc. Terms Privacy Security Status Help
