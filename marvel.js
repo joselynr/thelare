@@ -47,7 +47,7 @@ myPicture.on ('click', function(event) {
   }
 
   if (event.id == 'Room Office') {
-    alert('some office room I never stepped into or caught my attention to check it out.);
+    alert('some office room I never stepped into or caught my attention to check it out');
   }
 
   if (event.id == 'Office') {
