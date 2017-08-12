@@ -1,5 +1,6 @@
 var myPicture = vRViewPlayer('#spiderman',{
   image: 'image1.jpg',
+  is_yaw_only; true, 
   is_stereo: false
 });
 window.addEventListener('load', myPicture);
