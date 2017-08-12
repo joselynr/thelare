@@ -1,5 +1,5 @@
 var myPicture = vRViewPlayer('#spiderman',{
-  image: 'spiderman.jpeg',
+  image: 'image1.jpeg',
   is_stereo: false
 });
 window.addEventListener('load', myPicture);
