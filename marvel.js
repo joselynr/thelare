@@ -31,7 +31,7 @@ myPicture.on('ready', function(event) {
   });
   myPicture.addHotspot('window view', {
     pitch: 0,
-    yaw: 150,
+    yaw: 1300,
     radius: 0.10,
     distance: 1
   });
